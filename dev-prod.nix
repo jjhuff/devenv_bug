@@ -8,6 +8,6 @@ in
   };
 
   config = lib.mkIf cfg.enable {
-    env.TEST="dev-prod";
+    env.TEST = "dev-prod";
   };
 }
